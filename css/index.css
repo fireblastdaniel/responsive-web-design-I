@@ -211,8 +211,11 @@ ul {
 }
 
 @media (max-width: 800px){
-    body {
+    body{
         width:100%;
+    }
+    div img {
+        max-width:100%;
     }
     nav {
         flex-direction:row-reverse;
@@ -248,6 +251,20 @@ ul {
     }
     #contact {
         margin-left:3%
+    }
+
+    #service-page section {
+        margin:4%;
+    }
+    #service-page #all-service-categories {
+        margin:2%;
+    }
+    .services-header-img {
+        width: 100%;
+    }
+    .service-category{
+        margin:2%;
+        width:45%;
     }
 }
 
