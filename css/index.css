@@ -253,6 +253,7 @@ ul {
         margin-left:3%
     }
 
+    /* Services page */
     #service-page section {
         margin:4%;
     }
@@ -295,5 +296,25 @@ ul {
     .about1, .about2{
         width:100%;
         padding:3%;
+    }
+
+    /* Services page */
+    #service-page .navigation {
+        margin: 4% 0;
+    }
+    .service-category {
+        width:95%;
+    }
+    .service-category h2 {
+        text-align:center;
+    }
+    .service-button{
+        text-align:center;
+    }
+    .service-facts-img{
+        display:none;
+    }
+    #service-facts .services-info-txt{
+        width:95%;
     }
 }
