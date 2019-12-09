@@ -212,7 +212,7 @@ ul {
 
 @media (max-width: 800px){
     body {
-        width: 100%;
+        width:100%;
     }
     nav {
         flex-direction:row-reverse;
@@ -223,7 +223,7 @@ ul {
         display:flex;
         justify-content:center;
         width:100%;
-        margin: 2%;
+        padding: 2%;
     }
     .headline h1 {
         font-size:64px;
@@ -252,5 +252,31 @@ ul {
 }
 
 @media (max-width: 500px){
-
+    body {
+        width: 100%;
+    }
+    nav #links {
+        width: 100%;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:center;
+    }
+    #links a{
+        display:flex;
+        justify-content:center;
+        width:100%;
+        border-bottom:1px solid #c9c9c9;
+        padding: 2%;
+    }
+    #logo-image {
+        border-bottom:1px solid #c9c9c9
+    }
+    .about {
+        flex-wrap:wrap;
+    }
+    .about1, .about2{
+        width:100%;
+        padding:3%;
+    }
 }
